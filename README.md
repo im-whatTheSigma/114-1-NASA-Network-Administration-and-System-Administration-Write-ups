@@ -19,3 +19,7 @@
 - Exams are hard but depends on if teaching team allows GenAI usage. Before, students usually only average 30 points / 200 points. 
 
 Thank you NASA team for this semester.
+
+
+
+p.s. HackMD (or any other markdown editor) will be heavily used in writing homework reports, however HackMD needs premium s.t. you can print the document to pdf, so most of us would just use "Ctrl+P" instead. But this will create duplicate links if you have references, so there is a useful script to remove dupe links. Just paste it in "Ctrl+Shift+I" -> Console.
