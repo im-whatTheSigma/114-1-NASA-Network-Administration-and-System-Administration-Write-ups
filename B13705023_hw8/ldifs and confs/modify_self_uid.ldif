@@ -1,0 +1,4 @@
+dn: uid=ta01,ou=people,dc=nasa,dc=csie,dc=ntu
+changetype: modify
+replace: uid
+uid: ta02

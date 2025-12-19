@@ -1,0 +1,22 @@
+dn: uid=ntu01,ou=people,dc=nasa,dc=csie,dc=ntu
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: ntuStudent
+uid: ntu01
+cn: NTU Student One
+sn: Student
+givenName: NTU
+mail: ntu01@ntu.edu.tw
+uidNumber: 10003
+gidNumber: 5002
+homeDirectory: /home/ntu01
+loginShell: /bin/bash
+userPassword: {SSHA}ylDVAXBH0FinSiXw8JQGjOHILPNGsvxW
+description: NTU Student with custom schema
+# NTU Student attr
+studentEntryMethod: GSAT/Interview
+studentAdvisor: Pf. Michael Tsai
+studentClub: AI club
+studentClub: Piano club
+

@@ -1,0 +1,31 @@
+dn: cn=ntustudent,cn=schema,cn=config
+objectClass: olcSchemaConfig
+cn: ntustudent
+olcAttributeTypes: ( 1.3.6.1.4.1.99999.1.1
+  NAME 'studentEntryMethod'
+  DESC 'Student entry method to NTU (e.g., examination, recommendation)'
+  EQUALITY caseIgnoreMatch
+  SUBSTR caseIgnoreSubstringsMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+  SINGLE-VALUE )
+olcAttributeTypes: ( 1.3.6.1.4.1.99999.1.2
+  NAME 'studentAdvisor'
+  DESC 'Student academic advisor name'
+  EQUALITY caseIgnoreMatch
+  SUBSTR caseIgnoreSubstringsMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+  SINGLE-VALUE )
+olcAttributeTypes: ( 1.3.6.1.4.1.99999.1.3
+  NAME 'studentClub'
+  DESC 'Student club membership (can have multiple values)'
+  EQUALITY caseIgnoreMatch
+  SUBSTR caseIgnoreSubstringsMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+olcObjectClasses: ( 1.3.6.1.4.1.99999.2.1
+  NAME 'ntuStudent'
+  DESC 'NTU Student Information'
+  SUP top
+  AUXILIARY
+  MUST ( studentEntryMethod $ studentAdvisor )
+  MAY ( studentClub ) )
+

@@ -1,0 +1,113 @@
+dn: dc=nasa,dc=csie,dc=ntu
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: nasa
+dc: nasa
+structuralObjectClass: organization
+entryUUID: 2505dba6-50c7-1040-986f-51f9bf07a73d
+creatorsName: cn=admin,dc=nasa,dc=csie,dc=ntu
+createTimestamp: 20251108081743Z
+entryCSN: 20251108081743.433658Z#000000#000#000000
+modifiersName: cn=admin,dc=nasa,dc=csie,dc=ntu
+modifyTimestamp: 20251108081743Z
+
+dn: ou=people,dc=nasa,dc=csie,dc=ntu
+objectClass: organizationalUnit
+ou: people
+structuralObjectClass: organizationalUnit
+entryUUID: 459ac0ca-50c7-1040-85d6-759e8faf36e9
+creatorsName: cn=admin,dc=nasa,dc=csie,dc=ntu
+createTimestamp: 20251108081838Z
+entryCSN: 20251108081838.096562Z#000000#000#000000
+modifiersName: cn=admin,dc=nasa,dc=csie,dc=ntu
+modifyTimestamp: 20251108081838Z
+
+dn: ou=group,dc=nasa,dc=csie,dc=ntu
+objectClass: organizationalUnit
+ou: group
+structuralObjectClass: organizationalUnit
+entryUUID: 459baeb8-50c7-1040-85d7-759e8faf36e9
+creatorsName: cn=admin,dc=nasa,dc=csie,dc=ntu
+createTimestamp: 20251108081838Z
+entryCSN: 20251108081838.102664Z#000000#000#000000
+modifiersName: cn=admin,dc=nasa,dc=csie,dc=ntu
+modifyTimestamp: 20251108081838Z
+
+dn: cn=ta,ou=group,dc=nasa,dc=csie,dc=ntu
+objectClass: posixGroup
+objectClass: top
+cn: ta
+gidNumber: 5001
+description: Teaching Assistants
+structuralObjectClass: posixGroup
+entryUUID: 962075aa-5160-1040-807a-2f30e6be261a
+creatorsName: cn=admin,dc=nasa,dc=csie,dc=ntu
+createTimestamp: 20251109023606Z
+memberUid: ta01
+entryCSN: 20251109025336.517682Z#000000#000#000000
+modifiersName: cn=admin,dc=nasa,dc=csie,dc=ntu
+modifyTimestamp: 20251109025336Z
+
+dn: cn=student,ou=group,dc=nasa,dc=csie,dc=ntu
+objectClass: posixGroup
+objectClass: top
+cn: student
+gidNumber: 5002
+description: Students
+structuralObjectClass: posixGroup
+entryUUID: 962143ae-5160-1040-807b-2f30e6be261a
+creatorsName: cn=admin,dc=nasa,dc=csie,dc=ntu
+createTimestamp: 20251109023606Z
+memberUid: student01
+entryCSN: 20251109025336.520293Z#000000#000#000000
+modifiersName: cn=admin,dc=nasa,dc=csie,dc=ntu
+modifyTimestamp: 20251109025336Z
+
+dn: uid=ta01,ou=people,dc=nasa,dc=csie,dc=ntu
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+uid: ta01
+cn: TA User One
+sn: User
+givenName: TA
+mail: ta01@nasa.csie.ntu
+uidNumber: 10001
+gidNumber: 5001
+homeDirectory: /home/ta01
+userPassword:: e1NTSEF9QWxPUGNRc1BVZWJhc1JiVXZhUHVOWXhCWkdXa2Z1azY=
+description: Teaching Assistant User
+structuralObjectClass: inetOrgPerson
+entryUUID: b095bcb8-5162-1040-807c-2f30e6be261a
+creatorsName: cn=admin,dc=nasa,dc=csie,dc=ntu
+createTimestamp: 20251109025109Z
+loginShell: /bin/zsh
+entryCSN: 20251109033531.676021Z#000000#000#000000
+modifiersName: uid=ta01,ou=people,dc=nasa,dc=csie,dc=ntu
+modifyTimestamp: 20251109033531Z
+
+dn: uid=student01,ou=people,dc=nasa,dc=csie,dc=ntu
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+uid: student01
+cn: Student User One
+sn: User
+givenName: Student
+mail: student01@nasa.csie.ntu
+uidNumber: 10002
+gidNumber: 5002
+homeDirectory: /home/student01
+loginShell: /bin/bash
+userPassword:: e1NTSEF9SFN3VXRFeWJZUUFacWhIWGJ3MDVQY0Myci9VcU94dEQ=
+description: Student User
+structuralObjectClass: inetOrgPerson
+entryUUID: b09686ac-5162-1040-807d-2f30e6be261a
+creatorsName: cn=admin,dc=nasa,dc=csie,dc=ntu
+createTimestamp: 20251109025109Z
+entryCSN: 20251109025109.578170Z#000000#000#000000
+modifiersName: cn=admin,dc=nasa,dc=csie,dc=ntu
+modifyTimestamp: 20251109025109Z

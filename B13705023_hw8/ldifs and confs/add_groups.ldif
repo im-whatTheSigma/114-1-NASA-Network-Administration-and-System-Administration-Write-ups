@@ -1,0 +1,13 @@
+dn: cn=ta,ou=group,dc=nasa,dc=csie,dc=ntu
+objectClass: posixGroup
+objectClass: top
+cn: ta
+gidNumber: 5001
+description: Teaching Assistants
+
+dn: cn=student,ou=group,dc=nasa,dc=csie,dc=ntu
+objectClass: posixGroup
+objectClass: top
+cn: student
+gidNumber: 5002
+description: Students

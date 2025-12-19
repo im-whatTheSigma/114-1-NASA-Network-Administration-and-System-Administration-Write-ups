@@ -1,0 +1,9 @@
+dn: cn=ta,ou=group,dc=nasa,dc=csie,dc=ntu
+changetype: modify
+add: memberUid
+memberUid: ta01
+
+dn: cn=student,ou=group,dc=nasa,dc=csie,dc=ntu
+changetype: modify
+add: memberUid
+memberUid: student01

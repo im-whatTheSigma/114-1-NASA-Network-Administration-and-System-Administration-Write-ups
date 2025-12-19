@@ -1,0 +1,4 @@
+dn: uid=student01,ou=people,dc=nasa,dc=csie,dc=ntu
+changetype: modify
+replace: loginShell
+loginShell: /bin/zsh

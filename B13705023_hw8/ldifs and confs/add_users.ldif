@@ -1,0 +1,35 @@
+# TA
+dn: uid=ta01,ou=people,dc=nasa,dc=csie,dc=ntu
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+uid: ta01
+cn: TA User One
+sn: User
+givenName: TA
+mail: ta01@nasa.csie.ntu
+uidNumber: 10001
+gidNumber: 5001
+homeDirectory: /home/ta01
+loginShell: /bin/bash
+userPassword: {SSHA}AlOPcQsPUebasRbUvaPuNYxBZGWkfuk6
+description: Teaching Assistant User
+
+# Student 
+dn: uid=student01,ou=people,dc=nasa,dc=csie,dc=ntu
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+uid: student01
+cn: Student User One
+sn: User
+givenName: Student
+mail: student01@nasa.csie.ntu
+uidNumber: 10002
+gidNumber: 5002
+homeDirectory: /home/student01
+loginShell: /bin/bash
+userPassword: {SSHA}HSwUtEybYQAZqhHXbw05PcC2r/UqOxtD
+description: Student User

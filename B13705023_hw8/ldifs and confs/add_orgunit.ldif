@@ -1,0 +1,7 @@
+dn: ou=people,dc=nasa,dc=csie,dc=ntu
+objectClass: organizationalUnit
+ou: people
+
+dn: ou=group,dc=nasa,dc=csie,dc=ntu
+objectClass: organizationalUnit
+ou: group
