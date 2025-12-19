@@ -16,7 +16,8 @@
 ## Difficulty?
 - If you enjoy sitting infront of the terminal 8-10 hours a week (even with AI assistance), or just like this topic, you are very welcomed to take this course.
 - 13 homeworks, 14 labs, 25+ in-class problems, 2 exams.
-- Exams are hard but depends on if teaching team allows GenAI usage. Before, students usually only average 30 points / 200 points. 
+- Exams are hard but depends on if teaching team allows GenAI usage. Before, students usually only average 30 points / 200 points.
+- Changed to Pass/Fail grading this semester.
 
 Thank you NASA team for this semester.
 
